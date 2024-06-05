@@ -51,7 +51,8 @@ header ul li a:hover{
 /* ESTILIZAÇÕES DO BANNER DE APRESENTAÇÃO */
 .banner {
     height: 100%;
-    background-image: url("/img/bg-ocean.png");
+    height: 100vh;
+    background-image: url("../img/bg-ocean.png");
     background-size: cover;
     background-position: center;
 
@@ -71,8 +72,6 @@ header ul li a:hover{
 /* ESTILIZAÇÕES DO QUEM SOMOS */
 .container-quem-somos  {
    padding: 40px 0;
-
-   
 }
 
 .container-quem-somos h2 {
@@ -103,10 +102,19 @@ max-width: 420px;
 width: 100%;
 }
 
+.video-quem-somos {
+    max-width: 820px;
+    height: 480px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
 footer {
     background-color: #013951;
     color: #fff;
     padding: 20px 0;
+    margin-top: 50px;
 }
 
 
